@@ -15,8 +15,8 @@ import { GrMysql } from "react-icons/gr";
 
 const Technologies = () => {
   return (
-    <section className=' my-11'>
-      <div className='container mx-auto border-t py-6 flex flex-row flex-wrap items-center justify-center w-1/2 space-y-6'>
+    <section className=' my-11' id='technologies'>
+      <div className='container mx-auto border-t py-6 flex flex-row flex-wrap items-center justify-center w-3/4 lg:w-1/2 space-y-6'>
         <article className='container flex flex-col lg:w-1/2 '>
           <h3 className="relative text-sky-600 font-bold text-xl font-sans after:content-[''] after:w-16 after:h-1 after:bg-sky-600 after:absolute after:top-1/2 after:ml-2">
             ABOUT ME
@@ -29,7 +29,7 @@ const Technologies = () => {
             className: "transition group-hover:text-sky-700",
           }}
         >
-          <article className=' mx-auto flex flex-wrap gap-4 lg:w-1/2'>
+          <article className='justify-start mx-auto flex flex-wrap gap-4 lg:w-1/2'>
             <div className='group flex flex-col items-center justify-center bg-gray-100 drop-shadow rounded-md p-1 select-none w-20 h-16 '>
               <FaReact />
               <p className='transition font-mono font-bold text-xs  group-hover:text-sky-700'>

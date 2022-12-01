@@ -5,10 +5,10 @@ import bg from "../assets/background.svg";
 
 const Hero = () => {
   return (
-    <section className='px-2 flex-col space-y-6 pt-12'>
+    <section className='px-2 pt-12' id='home'>
       <div className='flex-row flex-wrap justify-center'>
-        <article className='container flex flex-row flex-wrap-reverse justify-center items-center w-1/2 mx-auto'>
-          <div className='flex flex-col space-y-2 lg:w-1/2 '>
+        <article className='container flex flex-row flex-wrap-reverse justify-center items-center w-3/4 lg:w-1/2 mx-auto'>
+          <div className='flex flex-col space-y-2  lg:w-1/2 '>
             <h3 className='text-sm text-sky-500 font-bold'>
               Hey there 👋 i am a
             </h3>
@@ -20,14 +20,14 @@ const Hero = () => {
             </h3>
             <h1 className='text-gray-500 text-lg'>
               I make professional websites, if you need one or do you want to
-              offer me an job opportunity, get in touch with me.
+              offer me a job opportunity, get in touch with me.
             </h1>
             <button className='rounded-lg bg-sky-600 w-30 h-12 px-4 font-bold text-white self-start active:bg-sky-800'>
               Contact me
             </button>
           </div>
-          <div className='flex justify-center w-3/4 lg:w-1/2 mb-6'>
-            <img src={kevin} alt='Kevin Flores' className='w-full' />
+          <div className='flex justify-center  lg:w-1/2 mb-6'>
+            <img src={kevin} alt='Kevin Flores' className='w-2/4 lg:w-full' />
             <img
               src={bg}
               alt='Background image'
@@ -36,7 +36,6 @@ const Hero = () => {
           </div>
         </article>
       </div>
-      
     </section>
   );
 };
