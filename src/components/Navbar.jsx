@@ -28,7 +28,7 @@ const Navbar = () => {
           </button>
         </div>
       </nav>
-      <ul className='transition-[left] fixed flex flex-row md:hidden items-center font-bold text-lg top-1/2 -left-28  hover:left-0'>
+      <ul className='transition-[left] fixed flex flex-row md:hidden items-center font-bold text-lg top-1/2 -left-28  hover:left-0 z-50'>
         <div className='flex flex-col p-6 bg-sky-600 text-white rounded-r-xl space-y-8'>
           <li className='flex items-center justify-center w-16'>
             <a href='#'>Home</a>
