@@ -15,8 +15,8 @@ import { GrMysql } from "react-icons/gr";
 
 const Technologies = () => {
   return (
-    <section className=' my-11' id='technologies'>
-      <div className='container mx-auto border-t py-6 my-20 flex flex-row flex-wrap items-center justify-center w-3/4 lg:w-1/2 space-y-6'>
+    <section id='technologies'>
+      <div className='container mx-auto border-t py-6 mb-20 flex flex-row flex-wrap items-center justify-center w-3/4 lg:w-1/2 space-y-6'>
         <article className='container flex flex-col lg:w-1/2 '>
           <h3 className="relative text-sky-600 font-bold text-xl font-sans after:content-[''] after:w-16 after:h-1 after:bg-sky-600 after:absolute after:top-1/2 after:ml-2">
             ABOUT ME

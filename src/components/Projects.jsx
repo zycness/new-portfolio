@@ -5,7 +5,10 @@ import SingleProject from "./SingleProject";
 
 const Projects = () => {
   return (
-    <section className='container w-3/4 lg:w-1/2 mx-auto py-20 space-y-10'>
+    <section
+      className='container w-3/4 lg:w-1/2 mx-auto my-20 space-y-10'
+      id='projects'
+    >
       <article className='flex flex-col justify-center items-center'>
         <h3 className='text-sky-600 font-bold text-xl font-sans'>
           Some things i've built
@@ -25,6 +28,11 @@ const Projects = () => {
                  odio doloremque nihil necessitatibus nobis ducimus
                   reiciendis iure repellendus enim.`}
             tech={["tech", "tech1", "tech2", "tech3"]}
+            order={2}
+            links={{
+              github: "https://github.com/zycness",
+              deploy: "https://portfolio-nuevo-zyc.vercel.app/",
+            }}
           />
           <SingleProject
             img={test}
@@ -35,6 +43,11 @@ const Projects = () => {
                  odio doloremque nihil necessitatibus nobis ducimus
                   reiciendis iure repellendus enim.`}
             tech={["tech", "tech1", "tech2", "tech3"]}
+            order={1}
+            links={{
+              github: "https://github.com/zycness",
+              deploy: "https://portfolio-nuevo-zyc.vercel.app/",
+            }}
           />
           <SingleProject
             img={test}
@@ -45,6 +58,11 @@ const Projects = () => {
                  odio doloremque nihil necessitatibus nobis ducimus
                   reiciendis iure repellendus enim.`}
             tech={["tech", "tech1", "tech2", "tech3"]}
+            order={2}
+            links={{
+              github: "https://github.com/zycness",
+              deploy: "https://portfolio-nuevo-zyc.vercel.app/",
+            }}
           />
           <SingleProject
             img={test}
@@ -55,6 +73,11 @@ const Projects = () => {
                  odio doloremque nihil necessitatibus nobis ducimus
                   reiciendis iure repellendus enim.`}
             tech={["tech", "tech1", "tech2", "tech3"]}
+            order={1}
+            links={{
+              github: "https://github.com/zycness",
+              deploy: "https://portfolio-nuevo-zyc.vercel.app/",
+            }}
           />
         </ul>
       </article>

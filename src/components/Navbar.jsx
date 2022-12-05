@@ -11,16 +11,19 @@ const Navbar = () => {
         <div className='container flex flex-row justify-end space-x-6'>
           <ul className='flex-row hidden md:flex items-center space-x-6 font-bold text-lg '>
             <li className='flex items-center justify-center'>
-              <a href='#'>Home</a>
+              <a href='#home'>Home</a>
             </li>
             <li className='flex items-center justify-center'>
-              <a href='#'>About</a>
+              <a href='#technologies'>About</a>
             </li>
             <li className='flex items-center justify-center'>
-              <a href='#'>Services</a>
+              <a href='#experience'>Experience</a>
             </li>
             <li className='flex items-center justify-center'>
-              <a href='#'>Contact</a>
+              <a href='#projects'>Projects</a>
+            </li>
+            <li className='flex items-center justify-center'>
+              <a href='#cta'>Contact</a>
             </li>
           </ul>
           <button className='rounded-lg bg-sky-600 w-30 h-12 px-4 font-bold text-white active:bg-sky-800'>
@@ -31,16 +34,19 @@ const Navbar = () => {
       <ul className='transition-[left] fixed flex flex-row md:hidden items-center font-bold text-lg top-1/2 -left-28  hover:left-0 z-50'>
         <div className='flex flex-col p-6 bg-sky-600 text-white rounded-r-xl space-y-8'>
           <li className='flex items-center justify-center w-16'>
-            <a href='#'>Home</a>
+            <a href='#home'>Home</a>
           </li>
           <li className='flex items-center justify-center w-16'>
-            <a href='#'>About</a>
+            <a href='#technologies'>About</a>
           </li>
           <li className='flex items-center justify-center w-16'>
-            <a href='#'>Services</a>
+            <a href='#experience'>Experience</a>
           </li>
           <li className='flex items-center justify-center w-16'>
-            <a href='#'>Contact</a>
+            <a href='#projects'>Projects</a>
+          </li>
+          <li className='flex items-center justify-center w-16'>
+            <a href='#cta'>Contact</a>
           </li>
         </div>
         <div className=' bg-sky-600 px-1 py-2 text-white font-extrabold rounded-r-xl  w-8'>

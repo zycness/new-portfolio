@@ -81,9 +81,6 @@ const Experience = () => {
             <h4 className='font-extrabold italic text-xl text-gray-700'>
               Self-taught Web Developer
             </h4>
-            <h5 className='text-lg text-gray-400'>
-              Tu espacio limpio, Buenos Aires
-            </h5>
             <span className='bg-sky-700 w-fit px-2 rounded-full text-gray-100 font-semibold'>
               2021 - 2022
             </span>

@@ -5,12 +5,12 @@ import bg from "../assets/background.svg";
 
 const Hero = () => {
   return (
-    <section className='px-2 pt-12' id='home'>
+    <section className='px-2 pt-12 min-h-[90vh]' id='home'>
       <div className='flex-row flex-wrap justify-center'>
         <article className='container flex flex-row flex-wrap-reverse justify-center items-center w-3/4 lg:w-1/2 mx-auto'>
           <div className='flex flex-col space-y-2  lg:w-1/2 '>
             <h3 className='text-sm text-sky-500 font-bold'>
-              Hey there 👋 i am a
+              Hey there &#128075; i am a
             </h3>
             <h1 className='text-5xl font-extrabold text-gray-800'>
               Web Developer
