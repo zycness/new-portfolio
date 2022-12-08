@@ -11,18 +11,18 @@ const SingleProject = ({ img, title, desc, tech, order, links }) => {
       <img
         src={img}
         alt={title}
-        className='absolute h-full w-full top-0 -z-10 object-cover rounded-lg md:relative md:w-1/2 '
+        className='absolute top-0 -z-10 h-full w-full rounded-lg bg-cover object-cover md:relative md:aspect-square md:w-[40%] '
       />
-      <div className='p-6 bg-gray-50 bg-opacity-90 rounded-lg md:w-1/2 md:bg-transparent'>
-        <h5 className='text-sky-700 font-bold text-sm'>Featured Project</h5>
-        <h4 className='font-bold text-2xl'>{title}</h4>
+      <div className='rounded-lg bg-gray-50 bg-opacity-90 p-6 md:w-1/2 md:bg-transparent'>
+        <h5 className='text-sm font-bold text-sky-700'>Featured Project</h5>
+        <h4 className='text-2xl font-bold'>{title}</h4>
         <p className='font-semibold text-gray-500 '>{desc}</p>
         <div className='flex flex-row flex-wrap space-x-4 font-semibold text-gray-400'>
           {tech?.map((singleTech) => (
             <span key={uuid()}>{singleTech}</span>
           ))}
         </div>
-        <span className='flex space-x-2 my-2'>
+        <span className='my-2 flex space-x-2'>
           <a
             href={`${links ? links.github : null}`}
             target='_blank'
@@ -42,16 +42,16 @@ const SingleProject = ({ img, title, desc, tech, order, links }) => {
     </li>
   ) : order == 2 ? (
     <li className='relative md:flex md:flex-row md:items-center md:space-x-3'>
-      <div className='p-6 bg-gray-50 bg-opacity-90 rounded-lg md:w-1/2 md:bg-transparent md:text-right'>
-        <h5 className='text-sky-700 font-bold text-sm'>Featured Project</h5>
-        <h4 className='font-bold text-2xl'>{title}</h4>
+      <div className='rounded-lg bg-gray-50 bg-opacity-90 p-6 md:w-1/2 md:bg-transparent md:text-right'>
+        <h5 className='text-sm font-bold text-sky-700'>Featured Project</h5>
+        <h4 className='text-2xl font-bold'>{title}</h4>
         <p className='font-semibold text-gray-500 '>{desc}</p>
         <div className='flex flex-row flex-wrap space-x-4 font-semibold text-gray-400 md:justify-end'>
           {tech?.map((singleTech) => (
             <span key={uuid()}>{singleTech}</span>
           ))}
         </div>
-        <span className='flex space-x-2 my-2 md:justify-end'>
+        <span className='my-2 flex space-x-2 md:justify-end'>
           <a
             href={`${links ? links.github : null}`}
             target='_blank'
@@ -71,7 +71,7 @@ const SingleProject = ({ img, title, desc, tech, order, links }) => {
       <img
         src={img}
         alt={title}
-        className='absolute h-full w-full top-0 -z-10 object-cover rounded-lg md:relative md:w-1/2'
+        className='absolute top-0 -z-10 h-full w-full rounded-lg bg-cover bg-top object-cover md:relative md:aspect-square md:w-[40%]'
       />
     </li>
   ) : null;
