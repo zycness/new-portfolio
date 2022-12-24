@@ -1,104 +1,118 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
+
+import { BiLinkExternal } from "react-icons/bi";
 
 const Experience = () => {
+  const { t } = useTranslation();
+
   return (
     <section
       id='experience'
-      className='container flex flex-row flex-wrap justify-center mx-auto'
+      className='container mx-auto flex flex-row flex-wrap justify-center'
     >
-      <article className='container text-center w-3/4 lg:1/2'>
-        <h2 className='text-sky-600 font-bold text-xl font-sans'>
-          Education & Experience
+      <article className='lg:1/2 container w-3/4 text-center'>
+        <h2 className='font-sans text-xl font-bold text-sky-600'>
+          {t("exp.text.part1")}
         </h2>
-        <h3 className='font-bold text-4xl'>My Resume</h3>
-        <p className='font-semibold'>
-          During my journy i always been a hard-working person, looking for
-          lasting and outstanding results.
-        </p>
+        <h3 className='text-4xl font-bold'>{t("exp.text.part2")}</h3>
+        <p className='font-semibold'>{t("exp.text.part3")}</p>
       </article>
-      <article className='container w-3/4 lg:1/2'>
+      <article className='lg:1/2 container w-3/4'>
         <ul className=' mt-12 lg:flex lg:flex-row lg:flex-wrap'>
-          <li className='relative flex flex-col space-y-1 px-6 pt-7 border-solid border-l-2 lg:w-1/2 lg:items-end lg:border-r-0 lg:border-l-0 lg:after:content-[""] lg:after:w-[2px] lg:after:h-full lg:after:-right-[2px] lg:after:-z-10 lg:after:absolute lg:after lg:after:bg-[#e5e7eb]'>
-            <h4 className='font-extrabold italic text-xl text-gray-700'>
-              Front-end Developer,{" "}
-              <span className='text-gray-500 font-semibold'>Freelance</span>
+          <li className='lg:after relative flex flex-col space-y-1 border-l-2 border-solid px-6 pt-7 lg:w-1/2 lg:items-end lg:border-r-0 lg:border-l-0 lg:after:absolute lg:after:-right-[2px] lg:after:-z-10 lg:after:h-full lg:after:w-[2px] lg:after:bg-[#e5e7eb] lg:after:content-[""]'>
+            <h4 className='text-xl font-extrabold italic text-gray-700'>
+              {t("exp.text.text1.part1")},{" "}
+              <span className='font-semibold text-gray-500'>Freelance</span>
             </h4>
-            <h5 className='text-lg text-gray-400'>Fixedbsas, Buenos Aires</h5>
-            <span className='bg-sky-700 w-fit px-2 rounded-full font-semibold text-gray-100 '>
+            <h5 className=' text-lg text-gray-400'>
+              <a
+                href='https://fixedbsas.com/'
+                target='_blank'
+                rel='noopener noreferrer'
+                className='flex items-center underline'
+              >
+                {t("exp.text.text1.part2")}
+                <BiLinkExternal className='ml-1' />
+              </a>
+            </h5>
+            <span className='w-fit rounded-full bg-sky-700 px-2 font-semibold text-gray-100 '>
               2022
             </span>
             <ul>
-              <li className='list-disc text-gray-400 text-base font-semibold'>
-                Builded code reuseable and maintainable in React and Javascript.
+              <li className='list-disc text-base font-semibold text-gray-400'>
+                {t("exp.text.text1.part3")}
               </li>
-              <li className='list-disc text-gray-400 text-base font-semibold'>
-                Builded a responsive and usable website.
+              <li className='list-disc text-base font-semibold text-gray-400'>
+                {t("exp.text.text1.part4")}
               </li>
-              <li className='list-disc text-gray-400 text-base font-semibold'>
-                Worked between design and developement for making sure that all
-                was like the customer wanted.
+              <li className='list-disc text-base font-semibold text-gray-400'>
+                {t("exp.text.text1.part5")}
               </li>
-              <li className='list-disc text-gray-400 text-base font-semibold'>
-                Established meetings with customer to ensure all was in order.
+              <li className='list-disc text-base font-semibold text-gray-400'>
+                {t("exp.text.text1.part6")}
               </li>
             </ul>
-            <div className='absolute rounded-full bg-white border-solid border-4 border-sky-700 w-5 h-5 top-7 -left-3 lg:left-[98%] xl:left-[98.5%]'></div>
+            <div className='absolute top-7 -left-3 h-5 w-5 rounded-full border-4 border-solid border-sky-700 bg-white lg:left-[98%] xl:left-[98.5%]'></div>
           </li>
-          <li className='hidden lg:block lg:w-1/2 lg:h-[260px]'></li>
-          <li className='hidden lg:block lg:w-1/2 lg:h-[260px]'></li>
-          <li className='relative flex flex-col space-y-1 px-6 pt-7 border-solid border-l-2 lg:w-1/2 lg:border-l-2'>
-            <h4 className='font-extrabold italic text-xl text-gray-700'>
-              Front-end Developer,{" "}
-              <span className='text-gray-500 font-semibold'>Freelance</span>
+          <li className='hidden lg:block lg:h-[260px] lg:w-1/2'></li>
+          <li className='hidden lg:block lg:h-[260px] lg:w-1/2'></li>
+          <li className='relative flex flex-col space-y-1 border-l-2 border-solid px-6 pt-7 lg:w-1/2 lg:border-l-2'>
+            <h4 className='text-xl font-extrabold italic text-gray-700'>
+              {t("exp.text.text2.part1")},{" "}
+              <span className='font-semibold text-gray-500'>Freelance</span>
             </h4>
             <h5 className='text-lg text-gray-400'>
-              Tu espacio limpio, Buenos Aires
+              <a
+                href='https://www.tuespaciolimpio.com.ar/'
+                target='_blank'
+                rel='noopener noreferrer'
+                className='flex items-center underline'
+              >
+                {t("exp.text.text2.part2")}
+                <BiLinkExternal className='ml-1' />
+              </a>
             </h5>
-            <span className='bg-sky-700 w-fit px-2 rounded-full text-gray-100 font-semibold'>
-              2021 - 2022
+            <span className='w-fit rounded-full bg-sky-700 px-2 font-semibold text-gray-100'>
+              2022
             </span>
             <ul>
-              <li className='list-disc text-gray-400 text-base font-semibold'>
-                Several meetings with customer talking about design and
-                functionalities.
+              <li className='list-disc text-base font-semibold text-gray-400'>
+                {t("exp.text.text2.part3")}
               </li>
-              <li className='list-disc text-gray-400 text-base font-semibold'>
-                Took care of design, oriented on user experience.
+              <li className='list-disc text-base font-semibold text-gray-400'>
+                {t("exp.text.text2.part4")}
               </li>
-              <li className='list-disc text-gray-400 text-base font-semibold'>
-                Builded reuseable and maintainable code with responsive and
-                usable design.
+              <li className='list-disc text-base font-semibold text-gray-400'>
+                {t("exp.text.text2.part5")}
               </li>
-              <li className='list-disc text-gray-400 text-base font-semibold'>
-                Maded email system for company's consults incoming from clients;
-                and email design for confirm status.
+              <li className='list-disc text-base font-semibold text-gray-400'>
+                {t("exp.text.text2.part6")}
               </li>
             </ul>
-            <div className='absolute rounded-full bg-white border-solid border-4 border-sky-700 w-5 h-5 top-7 -left-3'></div>
+            <div className='absolute top-7 -left-3 h-5 w-5 rounded-full border-4 border-solid border-sky-700 bg-white'></div>
           </li>
 
-          <li className='relative flex flex-col space-y-1 px-6 pt-7 border-solid border-l-2 lg:w-1/2 lg:items-end lg:border-r-0 lg:border-l-0 lg:after:content-[""] lg:after:w-[2px] lg:after:h-full lg:after:-right-[2px] lg:after:top-0 lg:after:-z-10 lg:after:absolute lg:after lg:after:bg-[#e5e7eb]'>
-            <h4 className='font-extrabold italic text-xl text-gray-700'>
-              Self-taught Web Developer
+          <li className='lg:after relative flex flex-col space-y-1 border-l-2 border-solid px-6 pt-7 lg:w-1/2 lg:items-end lg:border-r-0 lg:border-l-0 lg:after:absolute lg:after:-right-[2px] lg:after:top-0 lg:after:-z-10 lg:after:h-full lg:after:w-[2px] lg:after:bg-[#e5e7eb] lg:after:content-[""]'>
+            <h4 className='text-xl font-extrabold italic text-gray-700'>
+              {t("exp.text.text3.part1")}
             </h4>
-            <span className='bg-sky-700 w-fit px-2 rounded-full text-gray-100 font-semibold'>
+            <span className='w-fit rounded-full bg-sky-700 px-2 font-semibold text-gray-100'>
               2021 - 2022
             </span>
             <ul>
-              <li className='list-disc text-gray-400 text-base font-semibold'>
-                I managed to set an hourly basis of 6 to 8 hours per day.
+              <li className='list-disc text-base font-semibold text-gray-400'>
+                {t("exp.text.text3.part2")}
               </li>
-              <li className='list-disc text-gray-400 text-base font-semibold'>
-                I did some projects as i went through a lot of official
-                documentation from different technologies.
+              <li className='list-disc text-base font-semibold text-gray-400'>
+                {t("exp.text.text3.part3")}
               </li>
-              <li className='list-disc text-gray-400 text-base font-semibold'>
-                I got deep into Front-end but i have knowledge of basic Back-end{" "}
-                {"(Nodejs - Expressjs - MongoDB)"}
+              <li className='list-disc text-base font-semibold text-gray-400'>
+                {t("exp.text.text3.part4")}
               </li>
             </ul>
 
-            <div className='absolute rounded-full bg-white border-solid border-4 border-sky-700 w-5 h-5 top-7 -left-3 lg:left-[98%] xl:left-[98.5%]'></div>
+            <div className='absolute top-7 -left-3 h-5 w-5 rounded-full border-4 border-solid border-sky-700 bg-white lg:left-[98%] xl:left-[98.5%]'></div>
           </li>
         </ul>
       </article>

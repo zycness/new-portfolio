@@ -1,0 +1,96 @@
+{
+  "navbar": {
+    "links": {
+      "a": "Inicio",
+      "b": "Sobre",
+      "c": "Experiencia",
+      "d": "Proyectos",
+      "e": "Contacto"
+    },
+    "download": "Descargar CV"
+  },
+  "hero": {
+    "text": {
+      "part1": "¡Hola 👋! Soy un",
+      "part2": "Desarrollador Web",
+      "part3": "y me llamo Kevin Flores",
+      "part4": "Hago páginas profesionales, si necesita una o quiere acercarme una oferta de trabajo, contácteme.",
+      "part5": "Contactame"
+    }
+  },
+  "techs": {
+    "text": {
+      "part1": "SOBRE MÍ",
+      "part2": "Conozco estas tecnologías"
+    }
+  },
+  "exp": {
+    "text": {
+      "part1": "Educación & Experiencia",
+      "part2": "Mi trayecto",
+      "part3": "Durante mi trayecto he sido una persona muy trabajadora, buscando resultados duraderos y sobresalientes.",
+      "text1": {
+        "part1": "Desarrollador Front-end",
+        "part2": "Fixedbsas, Buenos Aires",
+        "part3": "Desarrollo de código reutilizable y mantenible en React y javascript.",
+        "part4": "Desarrollo de una página responsiva y utilizable.",
+        "part5": "He trabajado entre el diseño y desarrollo permitiendo que todo esté como el cliente deseaba.",
+        "part6": "Se ha establecido juntas con el cliente para asegurar que todo estaba correcto."
+      },
+      "text2": {
+        "part1": "Desarrollador Front-end",
+        "part2": "Tu espacio limpio, Buenos Aires",
+        "part3": "Varias juntas con el cliente para llegar a un acuerdo entre diseño y funcionalidades.",
+        "part4": "Encargado del diseño, orientado en la experiencia del usuario.",
+        "part5": "Desarrollo de código reutilziable y mantenible con diseño responsivo.",
+        "part6": "Diseño de un sistema para las consultas entrantes de los clientes, junto con diseño de confirmación vía email."
+      },
+      "text3": {
+        "part1": "Desarrollador Web Autodidacta",
+        "part2": "Conseguí administrar un tiempo de 6 a 8 horas por día.",
+        "part3": "Realicé proyectos a medida que fui aprendiendo a través de documentación oficial de distintas tecnologías.",
+        "part4": "Me adentré en el Front-end con conocimientos básicos/intermedios de back-end (NODEJS - EXPRESSJS - MONGODB)."
+      }
+    }
+  },
+  "cta": {
+    "text": {
+      "part1": "Quieres que te haga una página web o estar en contacto?",
+      "part2": "Trabajemos juntos",
+      "part3": "Contactame!"
+    }
+  },
+  "projects": {
+    "text": {
+      "part1": "Algunas cosas que he construido",
+      "part2": "Estos son mis proyectos principales",
+      "text1": {
+        "part1": "Proyecto destacado",
+        "part2": "Proyecto de REACT hecho con TYPESCRIPT, utilizado para entender los tipos y sus usos + mayor conocimiento en los hooks de REACT"
+      },
+      "text2": {
+        "part1": "Proyecto destacado",
+        "part2": "Aprendí desde 0 los usos más comunes de NODEJS, EXPRESSJS Y MONGODB; aquí pueden registrar/ingresar usuarios y crear, eliminar, editar tareas para cada usuario."
+      },
+      "text3": {
+        "part1": "Proyecto destacado",
+        "part2": "Proyecto donde aprendí TYPESCRIPT y NEXTJS, a la par del uso de una API para mostrar precios de cripto monedas."
+      },
+      "text4": {
+        "part1": "Proyecto destacado",
+        "part2": "Uno de mis primeros proyectos, utilizando una API para mostrar rating, descripciones y otros detalles de películas."
+      }
+    }
+  },
+  "contact": {
+    "text": {
+      "part1": "Quieres contactarme?",
+      "part2": "Estas son mis diferentes redes sociales."
+    }
+  },
+  "footer": {
+    "text": {
+      "part1": "Hecho con 💖 por "
+    }
+  }
+}

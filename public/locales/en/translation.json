@@ -1,0 +1,96 @@
+{
+  "navbar": {
+    "links": {
+      "a": "Home",
+      "b": "About",
+      "c": "Experience",
+      "d": "Projects",
+      "e": "Contact"
+    },
+    "download": "Download CV"
+  },
+  "hero": {
+    "text": {
+      "part1": "Hey there 👋 i am a",
+      "part2": "Web Developer",
+      "part3": "and my name is Kevin Flores",
+      "part4": "I make professional websites, if you need one or do you want to offer me a job opportunity, get in touch with me.",
+      "part5": "Contact me"
+    }
+  },
+  "techs": {
+    "text": {
+      "part1": "ABOUT ME",
+      "part2": "I know these technologies"
+    }
+  },
+  "exp": {
+    "text": {
+      "part1": "Education & Experience",
+      "part2": "My Resume",
+      "part3": "During my journey i have been always a hard-working person, looking for lasting and outstanding results.",
+      "text1": {
+        "part1": "Front-end Developer",
+        "part2": "Fixedbsas, Buenos Aires",
+        "part3": "Built code reuseable and maintainable in React and Javascript.",
+        "part4": "Built a responsive and usable website.",
+        "part5": "Worked between design and developement for making sure that all was like the customer wanted.",
+        "part6": "Established meetings with customer to ensure all was in order."
+      },
+      "text2": {
+        "part1": "Front-end Developer, Freelance",
+        "part2": "Tu espacio limpio, Buenos Aires",
+        "part3": "Several meetings with customer talking about design and functionalities.",
+        "part4": "Took care of design, oriented on user experience.",
+        "part5": "Built reuseable and maintainable code with responsive and usable design.",
+        "part6": "Made email system for company's consults incoming from clients; and email design for confirm status."
+      },
+      "text3": {
+        "part1": "Self-taught Web Developer",
+        "part2": "I managed to set an hourly basis of 6 to 8 hours per day.",
+        "part3": "I did some projects as i went through a lot of official documentation from different technologies.",
+        "part4": "I got deep into Front-end but i have knowledge of basic Back-end (Nodejs - Expressjs - MongoDB)"
+      }
+    }
+  },
+  "cta": {
+    "text": {
+      "part1": "Do you want me to make your website or get in touch?",
+      "part2": "Lets work together",
+      "part3": "Contact me!"
+    }
+  },
+  "projects": {
+    "text": {
+      "part1": "Algunas cosas que he construido",
+      "part2": "Estos son mis proyectos principales",
+      "text1": {
+        "part1": "Featured Project",
+        "part2": "REACT.JS project made with TYPESCRIPT, used to understand types and usages + more in-depth into hooks from REACT.JS"
+      },
+      "text2": {
+        "part1": "Featured Project",
+        "part2": "I learnt from scratch the most commons usages of NODEJS, EXPRESSJS and MONGODB; here you can register/login users and create, delete and edit tasks for each user."
+      },
+      "text3": {
+        "part1": "Featured Project",
+        "part2": "Project where i learnt TYPESCRIPT and NEXTJS, also using an API for displaying prices of cryptocurrencies."
+      },
+      "text4": {
+        "part1": "Featured Project",
+        "part2": "One of my first projects that i made, used an API for displaying movies ratings, descriptions and some other details."
+      }
+    }
+  },
+  "contact": {
+    "text": {
+      "part1": "Do you want to get in touch?",
+      "part2": "These are my differents social medias."
+    }
+  },
+  "footer": {
+    "text": {
+      "part1": "Made with 💖 by "
+    }
+  }
+}

@@ -1,3 +1,4 @@
+import Contact from "./components/Contact";
 import Cta from "./components/Cta";
 import Experience from "./components/Experience";
 import Footer from "./components/Footer";
@@ -10,12 +11,15 @@ function App() {
   return (
     <>
       <Navbar />
-      <Hero />
-      <Technologies />
+      <main>
+        <Hero />
+        <Technologies />
 
-      <Experience />
-      <Cta />
-      <Projects />
+        <Experience />
+        <Cta />
+        <Projects />
+        <Contact />
+      </main>
       <Footer />
     </>
   );
