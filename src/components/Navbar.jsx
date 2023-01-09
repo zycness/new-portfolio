@@ -43,12 +43,18 @@ const Navbar = () => {
               <GiHamburgerMenu size={"2rem"} />
             </button>
             <a
-              href={i18n.language == "es" ? cv : resume}
-              download
+              href={
+                i18n.language == "es"
+                  ? "https://portfolio-kf.vercel.app/assets/Kevin_Frontend_Developer_Esp.cf93129b.pdf"
+                  : "https://portfolio-kf.vercel.app/assets/Kevin_Frontend_Developer_English.749bdeed.pdf"
+              }
               className='w-30 hidden h-12 rounded-lg bg-sky-600 px-4 text-center font-bold text-white active:bg-sky-800 md:flex md:items-center md:justify-center'
+              target='_blank'
+              rel='noopener noreferrer'
             >
               {t("navbar.download")}
             </a>
+
             {lng ? (
               <button
                 onClick={() => {
