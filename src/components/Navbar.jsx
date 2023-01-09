@@ -19,7 +19,7 @@ const Navbar = () => {
   return (
     <Suspense fallback={"loading..."}>
       <header>
-        <nav className='container mx-auto flex flex-row items-center justify-between space-x-6 bg-white px-2'>
+        <nav className='container mx-auto flex flex-row items-center justify-between space-x-6 overflow-hidden bg-white px-2'>
           <img src={logo} alt='Portfolio logo' className='h-24' />
           <div className='container flex flex-row justify-end space-x-6'>
             <ul className='hidden flex-row items-center space-x-6 font-bold md:flex '>
@@ -45,7 +45,7 @@ const Navbar = () => {
             <a
               href={i18n.language == "es" ? cv : resume}
               download
-              className='w-30 hidden h-12 rounded-lg bg-sky-600 px-4 font-bold text-white active:bg-sky-800 md:flex md:items-center md:justify-center'
+              className='w-30 hidden h-12 rounded-lg bg-sky-600 px-4 text-center font-bold text-white active:bg-sky-800 md:flex md:items-center md:justify-center'
             >
               {t("navbar.download")}
             </a>
@@ -55,7 +55,7 @@ const Navbar = () => {
                   setLng(false);
                   i18n.changeLanguage("en");
                 }}
-                className='hidden items-center justify-center font-semibold md:flex '
+                className='fixed right-1 bottom-1 hidden items-center justify-center rounded-sm bg-sky-600 p-1 px-3 font-semibold text-white md:flex'
               >
                 English <img src={usa} alt='USA flag' className='ml-1' />
               </button>
@@ -65,7 +65,7 @@ const Navbar = () => {
                   setLng(true);
                   i18n.changeLanguage("es");
                 }}
-                className='hidden items-center justify-center font-semibold md:flex '
+                className='fixed right-1 bottom-1 hidden items-center justify-center rounded-sm bg-sky-600 p-1 px-3 font-semibold text-white md:flex'
               >
                 Español <img src={esp} alt='USA flag' className='ml-1' />
               </button>

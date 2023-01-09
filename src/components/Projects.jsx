@@ -59,7 +59,7 @@ const Projects = () => {
             order={2}
             links={{
               github: "https://github.com/zycness/devthereum",
-              deploy: "https://portfolio-nuevo-zyc.vercel.app/",
+              deploy: "https://devthereum.vercel.app/",
             }}
           />
           <SingleProject
