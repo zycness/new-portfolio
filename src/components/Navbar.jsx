@@ -141,9 +141,18 @@ const Navbar = () => {
                 </li>
               )}
               <li>
-                <button className='w-30 h-12 rounded-lg bg-sky-600 px-4 font-bold text-white active:bg-sky-800'>
+                <a
+                  href={
+                    i18n.language == "es"
+                      ? "https://portfolio-kf.vercel.app/assets/Kevin_Frontend_Developer_Esp.cf93129b.pdf"
+                      : "https://portfolio-kf.vercel.app/assets/Kevin_Frontend_Developer_English.749bdeed.pdf"
+                  }
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className='w-30 h-12 rounded-lg bg-sky-600 p-2 px-4 font-bold text-white active:bg-sky-800'
+                >
                   {t("navbar.download")}
-                </button>
+                </a>
               </li>
             </div>
           </ul>
